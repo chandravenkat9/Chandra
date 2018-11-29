@@ -102,10 +102,10 @@ public class Question1 {
 			}
 		Thread.sleep(8000);
 		AddNewPage addNew=new AddNewPage(driver);
-		addNew.enterUserName("Upendra");
-		addNew.enterEmail("upendraperugu@gmail.com");
-		addNew.enterFirstName("Upendra");
-		addNew.enterLastName("Kumar");
+		addNew.enterUserName("Chandra");
+		addNew.enterEmail("chandra.venkat9@gmail.com");
+		addNew.enterFirstName("Chandra");
+		addNew.enterLastName("Golla");
 		addNew.clickAddNewUserButton();
 		
 		
@@ -137,11 +137,11 @@ public class Question1 {
 		Thread.sleep(8000);
 		YourProfilePage profilePage=new YourProfilePage(driver);
 		profilePage.selectLanguage("English (United States)");
-		profilePage.enterFirstName("Upendra");
-		profilePage.enterLastName("Kumar");
+		profilePage.enterFirstName("Chandra");
+		profilePage.enterLastName("Golla");
 		profilePage.enterNickName("admin1");
 		profilePage.selectDisplayName("admin");
-		profilePage.enterEmail("upendra@admin.com");
+		profilePage.enterEmail("chandra@admin.com");
 		profilePage.enterWebsiteURL("https://stackoverflow.com");
 		profilePage.clickOnUpdateProfileButton();
 	}

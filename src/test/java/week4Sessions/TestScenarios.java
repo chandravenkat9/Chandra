@@ -75,10 +75,10 @@ public class TestScenarios {
 		dashboardPage.clickOnAddNewLink();
 		Thread.sleep(10000);
 		AddNewPage addNew=new AddNewPage(driver);
-		addNew.enterUserName("Upendra");
-		addNew.enterEmail("upendraperugu@gmail.com");
-		addNew.enterFirstName("Upendra");
-		addNew.enterLastName("Kumar");
+		addNew.enterUserName("Chandra");
+		addNew.enterEmail("chandra.venkat9@gmail.com");
+		addNew.enterFirstName("Chandra");
+		addNew.enterLastName("Golla");
 		addNew.clickAddNewUserButton();
 	}
 }

@@ -23,11 +23,11 @@ public void test() throws IOException, JSONException
 	con.setRequestProperty("Accept", "application/json");
 	
 	JSONObject requestBody=new JSONObject();
-	requestBody.append("FirstName", "Upendra");
-	requestBody.append("LastName", "kumar");
-	requestBody.append("UserName", "upen1");
+	requestBody.append("FirstName", "Chandra");
+	requestBody.append("LastName", "Golla");
+	requestBody.append("UserName", "cgolla1");
 	requestBody.append("Password", "Password1");
-	requestBody.append("Email", "upen1@gmail.com");
+	requestBody.append("Email", "chandra.venkat9@gmail.com");
 	
 	OutputStreamWriter writer=new OutputStreamWriter(con.getOutputStream());
 	System.out.println(requestBody.toString());
